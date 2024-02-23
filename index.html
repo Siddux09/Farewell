@@ -3,49 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Farewell Invitation</title>
+    <title>Farewell 2k21-2k24</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
+            background-color: #91dceb; /* light gray */
             text-align: center;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
         }
-
         .container {
             max-width: 600px;
-            margin: 20px auto;
+            margin: 50px auto;
+            background-color: #3184b1; /* white */
+            border-radius: 10px;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-
-        h1 {
-            color: #333;
+        h1, p {
+            color: #333; /* dark gray */
         }
-
-        p {
-            color: #555;
-        }
-
-        img {
-            max-width: 100%;
-            height: auto;
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff; /* blue */
+            color: #fff; /* white */
+            text-decoration: none;
+            border-radius: 5px;
             margin-top: 20px;
+            cursor: pointer; /* Change cursor to pointer to indicate clickability */
+        }
+        .btn:hover {
+            background-color: #0056b3; /* darker blue */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Farewell Party</h1>
-        <p>You are invited to a farewell party!</p>
-        <p>Come join us as we bid farewell to our dear friend.</p>
-        <img src="https://imgs.search.brave.com/hqsVnANgsmpYiA86c9_uvrh6ODQdyTf17oRYK-pSGzA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vRUFFcXR2/QVUxV2svMS8wLzE2/MDB3L2NhbnZhLXJl/ZC1mYXJld2VsbC1p/bnZpdGF0aW9uLWNh/cmQtcnNhVWw3dXp4/N28uanBn" alt="Farewell Party">
-        <p>Date:28/02/2024 </p>
-        <p>Time:10:00AM</p>
-        <p>Location: <a> href="https://maps.app.goo.gl/dDn3h4CqF7oGQgLR7"</a> </p>
-        
+        <h1>Farewell 2k21-2k24</h1>
+        <p>Your presence would mean a great deal to us as we come together one last time to reminisce, laugh, and perhaps shed a tear or two. Let's make this farewell an unforgettable moment in our collective history.</p>
+        <p>Date: 28-02-2024</p>
+        <p>Time: 9:00AM</p>
+        <p>Venue: Imperail resort</p>
+        <p>Please join us to celebrate the memories and experiences we've shared.</p>
+        <button class="btn" onclick="redirectToThankYou()">click here&#x1F604;</p>
+        </button>
     </div>
+
+    <script>
+        function redirectToThankYou() {
+            // Redirect to the "Thank You" page
+            window.location.href = "https://media.istockphoto.com/id/1311939407/vector/thank-you-ink-brush-vector-lettering.jpg?s=1024x1024&w=is&k=20&c=Uhzf0qAtIBs89BhFtpzhDVyPsk-oV1Exz3WOBm6pvJQ="; // Replace "thankyou.html" with the actual URL of your thank you page
+        }
+    </script>
 </body>
 </html>
